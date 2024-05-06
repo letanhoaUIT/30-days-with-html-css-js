@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+Reset CSS - chuẩn hóa giá trị mặc định của CSS cho các trình duyệt khác nhau 
+*/
+
+body{
+    height: 100vh; /*full screen*/
+    background: linear-gradient(to right, #4daf54, #3d8880);
+}
+
+.card{
+    margin: 120px auto;
+    width: 320px;
+    height: 400px;
+    background: #272d40;
+    padding: 20px; /*tim vs cart cach so voi vien */
+    border-radius: 15px;
+}
